@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C235276-3DE9-4DF1-ADCE-0581B3115808}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>vcloud1._0</RootNamespace>
+    <AssemblyName>vcloud1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\vs2010\csharp-sdk-6.1.5\tools\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="com.netease.vcloud.auth\Credentials.cs" />
+    <Compile Include="com.netease.vcloud.client\VcloudClient.cs" />
+    <Compile Include="com.netease.vcloud.config\Config.cs" />
+    <Compile Include="com.netease.vcloud.upload.demo\QueryVideoIDDemo.cs" />
+    <Compile Include="com.netease.vcloud.upload.module\InitUploadVideoModule.cs" />
+    <Compile Include="com.netease.vcloud.upload.module\QueryVideoIDorWatermarkIDModule.cs" />
+    <Compile Include="com.netease.vcloud.upload.module\SetCallbackModule.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\GetUploadHostParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\InitUploadVideoParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\InitUploadVideoRet.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\QueryOffsetParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\QueryVideoIDorWatermarkIDListParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\QueryVideoIDorWatermarkIDParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\QueryVideoIDorWatermarkIDRet.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\SetCallbackParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.param\UploadVideoFragmentParam.cs" />
+    <Compile Include="com.netease.vcloud.upload.recorder\UploadRecorder.cs" />
+    <Compile Include="com.netease.vcloud.util\CheckSumBuilder.cs" />
+    <Compile Include="com.netease.vcloud.util\FileUtil.cs" />
+    <Compile Include="com.netease.vcloud.util\HttpClientBuilder.cs" />
+    <Compile Include="com.netease.vcloud.util\JsonHelper.cs" />
+    <Compile Include="com.netease.vcloud.util\UploadUtil.cs" />
+    <Compile Include="com.netease.vcloud\ClientConfiguration.cs" />
+    <Compile Include="com.netease.vcloud\VcloudException.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

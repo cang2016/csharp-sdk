@@ -1,0 +1,13 @@
+c:\users\hzdumanyi\documents\visual studio 2010\Projects\csharp-sdk-1.0\vcloud1.0\bin\Debug\vcloud1.0.exe
+c:\users\hzdumanyi\documents\visual studio 2010\Projects\csharp-sdk-1.0\vcloud1.0\bin\Debug\vcloud1.0.pdb
+c:\users\hzdumanyi\documents\visual studio 2010\Projects\csharp-sdk-1.0\vcloud1.0\obj\x86\Debug\vcloud1.0.exe
+c:\users\hzdumanyi\documents\visual studio 2010\Projects\csharp-sdk-1.0\vcloud1.0\obj\x86\Debug\vcloud1.0.pdb
+c:\users\hzdumanyi\documents\visual studio 2010\Projects\csharp-sdk-1.0\vcloud1.0\bin\Debug\vcloud1.0.exe.config
+c:\users\hzdumanyi\documents\visual studio 2010\Projects\csharp-sdk-1.0\vcloud1.0\bin\Debug\Newtonsoft.Json.dll
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\bin\Debug\vcloud1.0.exe.config
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\obj\x86\Debug\vcloud1.0.exe
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\obj\x86\Debug\vcloud1.0.pdb
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\bin\Debug\vcloud1.0.exe
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\bin\Debug\vcloud1.0.pdb
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\bin\Debug\Newtonsoft.Json.dll
+D:\git\C#Demo\demo\csharp-sdk-1.0\vcloud1.0\obj\x86\Debug\vcloud1.0.csprojResolveAssemblyReference.cache
